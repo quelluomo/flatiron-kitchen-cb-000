@@ -16,7 +16,7 @@ class IngredientsController < ApplicationController
     if @ingredient.save
       redirect_to @ingredient
     else
-      render "new"
+      render 'new'
     end
   end
 
@@ -30,7 +30,7 @@ class IngredientsController < ApplicationController
     if @ingredient.save
       redirect_to @ingredient
     else
-      render "edit"
+      render 'edit'
     end
   end
 
